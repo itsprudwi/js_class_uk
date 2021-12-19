@@ -40,7 +40,7 @@ li button{
 .container{
     width: 1790px;
     margin: auto;
-    /* background-color: #f8f8f8; */
+    background-color: #f8f8f8;
     border: 1px solid black;
 }
 .container::after{
@@ -90,13 +90,12 @@ li button{
     font-family: Montserrat;
     color: #575153;
     letter-spacing: 335px;
-    padding-top: 145px;
+    padding-top: 237px;
     padding-bottom:300px;
-    padding-left: 130px;
 }
 .banner{
-    clear:both;
-    width:1661px;
-    margin:auto; 
+    content: "";
+    display: block;
+    clear: both;
 }
 

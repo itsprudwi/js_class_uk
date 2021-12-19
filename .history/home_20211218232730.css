@@ -40,8 +40,8 @@ li button{
 .container{
     width: 1790px;
     margin: auto;
-    /* background-color: #f8f8f8; */
-    border: 1px solid black;
+    background-color: #f8f8f8;
+    /* border: 1px solid black; */
 }
 .container::after{
     content: "";
@@ -80,7 +80,7 @@ li button{
     background: url("./projectp/assest/img/img4.png");
     background-repeat: no-repeat;
     background-color: #f8f8f8;
-    background-position-x:500px ;
+    background-position-x: 500px ;
 }
 .banner p{
     width:1540px;
@@ -90,13 +90,5 @@ li button{
     font-family: Montserrat;
     color: #575153;
     letter-spacing: 335px;
-    padding-top: 145px;
-    padding-bottom:300px;
-    padding-left: 130px;
-}
-.banner{
-    clear:both;
-    width:1661px;
-    margin:auto; 
 }
 

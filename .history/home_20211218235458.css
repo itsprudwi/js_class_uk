@@ -40,7 +40,7 @@ li button{
 .container{
     width: 1790px;
     margin: auto;
-    /* background-color: #f8f8f8; */
+    background-color: #f8f8f8;
     border: 1px solid black;
 }
 .container::after{
@@ -94,9 +94,9 @@ li button{
     padding-bottom:300px;
     padding-left: 130px;
 }
-.banner{
-    clear:both;
-    width:1661px;
-    margin:auto; 
-}
+/* .banner{
+    content: "";
+    display: block;
+    clear: both;
+} */
 
