@@ -4,14 +4,26 @@ html,body,h1,h2,h3,h4,h5,h6,ul,li,div,blockquote{
 }
 .main{
     width: 2045px;
-    display: flex;  
+    display: flex; 
+    justify-content: center; 
+   
 }
 ul li{
     list-style-type: none;
-}
-.main > div{
-    display: flex;
+
 }
 .loginpage ul{
     display: flex;
+    justify-content: flex-end;
+   
+}
+.loginpage{
+    flex-basis: 1060px;
+   
+}
+ul li:first-child{
+    margin-right: 40px;
+}
+ul li:last-child{
+    margin-left: 80px;
 }

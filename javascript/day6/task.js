@@ -1,0 +1,1 @@
+//popup text shuold move along with cursor on imgae.

@@ -1,0 +1,45 @@
+html, div, ul, li, p, h1,h2,h3,h4,h5,h6, blockquote{
+    padding:0px;
+    margin:0px;
+}
+div.main{
+    width:600px;
+    margin:auto;
+    border:1px solid black;
+    padding:10px;
+}
+button{
+    width:50px;
+    border-radius: 5px;
+}
+
+input[type="text"]{
+    width:400px;
+}
+.newtask{
+    margin:10px;
+}
+
+.main div input[type="text"]{
+    display:none;
+}
+.newtask input[type="text"]{
+    width:400px;
+    display: inline-block !important;
+}
+label{
+    width:400px;
+    display: inline-block;
+}
+h3{
+    text-align: center;
+}
+.editmode > input[type="text"]{ 
+    display:inline-block;
+}
+.editmode > label{
+    display:none;
+}
+.edit{
+    width:100px;
+}
